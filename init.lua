@@ -1,0 +1,2 @@
+require("kostin")
+print("lhello")
