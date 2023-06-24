@@ -1,1 +1,5 @@
-print("lello from init kostin")
+require("kostin.packer") -- can be removed
+
+require("kostin.remap")
+require("kostin.set")
+
