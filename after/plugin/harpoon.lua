@@ -1,7 +1,7 @@
 require("harpoon").setup({
-  global_settings = {
-    mark_branch = true,
-  }
+    global_settings = {
+        mark_branch = true,
+    }
 })
 
 local mark = require("harpoon.mark")
