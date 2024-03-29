@@ -25,3 +25,5 @@ vim.opt.signcolumn = "yes"
 vim.opt.isfname:append("@-@")
 
 vim.opt.updatetime = 50
+
+vim.cmd([[autocmd FileType markdown set tw=80 wrap]])

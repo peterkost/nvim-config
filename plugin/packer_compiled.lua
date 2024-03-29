@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/Users/kostin/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ale = {
+    loaded = true,
+    path = "/Users/kostin/.local/share/nvim/site/pack/packer/start/ale",
+    url = "https://github.com/dense-analysis/ale"
+  },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "/Users/kostin/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",

@@ -52,4 +52,6 @@ return require("packer").startup(function(use)
 	use("sbdchd/neoformat")
 
 	use("olrtg/nvim-emmet")
+
+	use("dense-analysis/ale")
 end)
