@@ -29,5 +29,9 @@ vim.keymap.set("n", "<leader>j", "<cmd>lprev<CR>zz")
 vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 
 vim.keymap.set("n", "<leader>ts", ":w !ts-node<CR>")
-
 vim.keymap.set("n", "<leader>py", ":w !python3<CR>")
+
+vim.keymap.set("n", "<leader>sv", ":vsp<CR>")
+vim.keymap.set("n", "<leader>sh", ":sp<CR>")
+vim.keymap.set("n", "<Tab>", "<C-W>w")
+vim.keymap.set("n", "<S-Tab>", "<C-W>W")
