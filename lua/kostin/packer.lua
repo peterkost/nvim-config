@@ -54,4 +54,9 @@ return require("packer").startup(function(use)
 	use("olrtg/nvim-emmet")
 
 	use("dense-analysis/ale")
+
+	use({
+		"akinsho/toggleterm.nvim",
+		tag = "*",
+	})
 end)
