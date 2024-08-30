@@ -34,7 +34,7 @@ local function get_python_path(workspace)
 	end
 
 	-- Fallback to system Python.
-	return exepath("python3") or exepath("python") or "python"
+	return "python" or "python3"
 end
 
 lspconfig.pyright.setup({
