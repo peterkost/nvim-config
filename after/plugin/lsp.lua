@@ -40,9 +40,11 @@ end
 lspconfig.pyright.setup({
 	-- ...
 	before_init = function(_, config)
-		print("before")
 		config.settings.python.pythonPath = get_python_path(config.root_dir)
 	end,
+    on_attach = function(client, bufnr)
+    client.offset_encoding = "utf-16"
+  end,
 })
 
 -- lspconfig.pyright.setup({
