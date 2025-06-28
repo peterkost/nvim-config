@@ -1,13 +1,3 @@
-require("diffview").setup({
-	use_icons = false,
-	file_panel = {
-		listing_style = "list",
-	},
-})
-
-vim.keymap.set("n", "<leader>dv", ":lua DiffviewToggle()<CR>")
-
--- Lua
 local last_tabpage = vim.api.nvim_get_current_tabpage()
 function DiffviewToggle()
 	local lib = require("diffview.lib")
@@ -20,3 +10,15 @@ function DiffviewToggle()
 		vim.cmd(":DiffviewOpen")
 	end
 end
+
+vim.keymap.set("n", "<leader>dv", ":lua DiffviewToggle()<CR>")
+
+return {
+	"sindrets/diffview.nvim",
+	opts = {
+		use_icons = false,
+		file_panel = {
+			listing_style = "list",
+		},
+	},
+}
