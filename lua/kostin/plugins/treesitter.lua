@@ -4,6 +4,7 @@ return {
 	branch = "master",
 	build = ":TSUpdate",
 	main = "nvim-treesitter.configs",
+	dependencies = { "virchau13/tree-sitter-astro" },
 	opts = {
 		highlight = {
 			enable = true,

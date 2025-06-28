@@ -1,4 +1,4 @@
-vim.lsp.enable({ "ruff", "basedpyright", "typescript-language-server" })
+vim.lsp.enable({ "ruff", "basedpyright", "typescript-language-server", "astro-language-server" })
 
 vim.keymap.set("n", "<leader>e", function()
 	vim.diagnostic.open_float()

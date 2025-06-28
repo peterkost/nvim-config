@@ -6,6 +6,7 @@ return {
 			-- LSP
 			"basedpyright",
 			"typescript-language-server",
+			"astro-language-server",
 			-- Format
 			"prettierd",
 			"ruff",
