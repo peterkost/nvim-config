@@ -13,6 +13,7 @@ return {
 		},
 	},
 	opts = {
+		log_level = vim.log.levels.DEBUG,
 		formatters_by_ft = {
 			lua = { "stylua" },
 			python = {
@@ -22,12 +23,20 @@ return {
 			},
 			javascript = { "prettierd" },
 			javascriptreact = { "prettierd" },
+			typescript = { "prettierd" },
+			typescriptreact = { "prettierd" },
 			css = { "prettierd" },
 			scss = { "prettierd" },
 			html = { "prettierd" },
 			json = { "prettierd" },
 			yaml = { "prettierd" },
 			markdown = { "prettierd" },
+		},
+		formatters = {
+			prettierd = {
+				command = "prettierd",
+				--prepend_args = { "--loglevel", "debug" },
+			},
 		},
 		default_format_opts = {
 			lsp_format = "fallback",
