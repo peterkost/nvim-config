@@ -18,5 +18,5 @@ require("lazy").setup({
 	spec = {
 		{ import = "kostin.plugins" },
 	},
-	checker = { enabled = true },
+	checker = { enabled = true, notify = false },
 })
