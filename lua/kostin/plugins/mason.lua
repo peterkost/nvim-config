@@ -7,8 +7,8 @@ return {
 			"basedpyright",
 			"typescript-language-server",
 			"astro-language-server",
+      "biome",
 			-- Format
-			"prettierd",
 			"ruff",
 			"stylua",
 		},
