@@ -25,6 +25,8 @@ return {
 			javascriptreact = { "biome", "biome-organize-imports" },
 			typescript = { "biome", "biome-organize-imports" },
 			typescriptreact = { "biome", "biome-organize-imports" },
+			css = { "biome" },
+			scss = { "biome" },
 		},
 		formatters = {},
 		default_format_opts = {
